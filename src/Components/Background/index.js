@@ -11,7 +11,7 @@ const Background = (props) => {
         <div className='header items-center flex justify-between py-5'>
           <div>
             {" "}
-            <img src={logo} alt='logo' />
+            <img src={logo} alt='logo'  style={{width:'70%'}}/>
           </div>
           <div>
             {" "}
@@ -23,10 +23,9 @@ const Background = (props) => {
         <FormComponent />
 
        <div className="footer mt-20 ">
-       <small>@MS SPACE 2023</small>
+       <small className="font-bold">@MS SPACE 2023</small>
        <div className="flex justify-between items-center">
-        <small>Privacy policy</small>
-        <a href="block" className="" ><MdMessage className="nav-icon"  />Terms and condition</a>
+        <small className="font-bold">Privacy policy</small>
         
        </div>
        </div>

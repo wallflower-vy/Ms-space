@@ -1,5 +1,9 @@
+.main-form-box{
+    margin-top: 6rem;
+    margin-left: 15rem;
+}
 .form-box{
-    width:30rem;
+    width:28rem;
     /* background-color: red; */
 }
 .form-btn{

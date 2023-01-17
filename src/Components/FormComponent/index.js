@@ -13,7 +13,7 @@ const FormComponent = () => {
     // }
 //   const [userInfo, setuserInfo]=useState()
   return (
-    <div className='mt-20 ml-20 '>
+    <div className='main-form-box'>
     
         <div class='w-full max-w-md'>
             <pre></pre>
@@ -24,13 +24,13 @@ const FormComponent = () => {
         
         <button
           
-          className='bg-zinc-200 form-btn font-bold text-left pl-2 py-2 mt-5 mb-5'
+          className='bg-zinc-200 form-btn font-bold texblack text-left pl-2 py-2 mt-5 mb-5'
         >
          <RiGoogleFill className="form-icon"/>
-        continue with Google
+        Continue with Google
         </button>
         <button  className='form-btn bg-zinc-200  font-bold text-left pl-2 py-2'>
-          <FaApple className="form-icon"/>continue with Apple
+          <FaApple className="form-icon"/>Continue with Apple
           
         </button>
             <div class='mb-4 mt-4'>
@@ -58,7 +58,7 @@ const FormComponent = () => {
             </div>
             <div class='flex items-center justify-between'>
               <button
-                class='bg-blue-500 hover:bg-blue-700 text-white font-bold mb-4 py-2 px-4 rounded-2xl focus:outline-none focus:shadow-outline w-full'
+                class='bg-blue-900 hover:bg-blue-700 text-white font-bold mb-4 py-2 px-4 rounded-2xl focus:outline-none focus:shadow-outline w-full'
                 type='button'
               >
                 Log In
@@ -72,7 +72,7 @@ const FormComponent = () => {
               >
                 Forgot Password?
               </a>
-              <p>Don't have an account? <a href="#" className=" font-bold">Sign in</a></p>
+              <p>Don't have an account? <a href="#" className=" font-bold" >Sign in</a></p>
               <p><a href="#" className="underline font-bold">Log in with your organization</a></p>
             </div>
           </form>
