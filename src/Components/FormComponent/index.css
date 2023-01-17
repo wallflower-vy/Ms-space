@@ -1,0 +1,18 @@
+.form-box{
+    width:30rem;
+    /* background-color: red; */
+}
+.form-btn{
+    width: 100%;
+}
+.form-icon{
+    display: inline;
+    font-size: 1.7rem;
+    margin-right: 1rem;
+}
+.btn-icon{
+    display: inline !important;
+}
+.form-btn span{
+    display: inline !important;
+}
