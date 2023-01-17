@@ -1,5 +1,5 @@
 .main-form-box{
-    margin-top: 6rem;
+    margin-top: 5rem;
     margin-left: 15rem;
 }
 .form-box{
@@ -19,4 +19,17 @@
 }
 .form-btn span{
     display: inline !important;
+}
+
+@media screen and (max-width:400px) {
+    .main-form-box{
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+}
+@media screen  and (min-width:401px) and (max-width:992px) {
+    .main-form-box{
+        margin-top: 6rem;
+        margin-left: 0rem;
+    }
 }

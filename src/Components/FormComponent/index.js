@@ -1,17 +1,13 @@
 // import React, { useState } from "react";
 import ButtonComponent from "../ButtonComponent";
-import {useForm} from 'react-hook-form';
+import { useNavigate } from 'react-router-dom';
 // import { useState } from "react";
 import "./index.css";
 import { RiGoogleFill } from "react-icons/ri";
 import {FaApple} from 'react-icons/fa'
 
 const FormComponent = () => {
-    const {register, handlesubmit,errors} =useForm();
-    // const onSubmit =(data)=>{
-    //     console.log(data)
-    // }
-//   const [userInfo, setuserInfo]=useState()
+  const navigate = useNavigate();
   return (
     <div className='main-form-box'>
     
@@ -72,7 +68,9 @@ const FormComponent = () => {
               >
                 Forgot Password?
               </a>
-              <p>Don't have an account? <a href="#" className=" font-bold" >Sign in</a></p>
+              <p>Don't have an account? <a href="#" className=" font-bold"   onClick={()=>{
+                    navigate('./dashboard');
+                }} >Sign in</a></p>
               <p><a href="#" className="underline font-bold">Log in with your organization</a></p>
             </div>
           </form>

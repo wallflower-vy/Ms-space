@@ -11,7 +11,7 @@ const Background = (props) => {
         <div className='header items-center flex justify-between py-5'>
           <div>
             {" "}
-            <img src={logo} alt='logo'  style={{width:'70%'}}/>
+            <img src={logo} alt='logo'  className='logincomponent-logo'/>
           </div>
           <div>
             {" "}

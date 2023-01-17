@@ -64,7 +64,7 @@ const DashboardForm = () => {
         
 
     </div>
-    <button className='w-full mt-10 bg-blue-900 rounded-3xl p-3 text-xl text-white'>save changes</button>
+    <button className='w-full mt-6 bg-blue-900 rounded-3xl p-3 text-xl text-white'>save changes</button>
     
     </>
   )

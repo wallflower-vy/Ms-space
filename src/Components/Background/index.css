@@ -18,3 +18,15 @@
     align-items: center;
 
 }
+.logincomponent-logo{
+    width:70%
+}
+@media screen and (max-width:575px) {
+    .login-btn{
+        padding: .5rem;
+        width:10rem
+    }
+    .logincomponent-logo{
+        width:70%
+    }
+}
